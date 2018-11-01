@@ -1,11 +1,13 @@
- body{
+body{
  	overflow-x: hidden;
  }
 
 nav
 {
-	background: transparent;
+	background: rgba(0,0,0,0.3);
 	height: 50px;
+	position:fixed;
+	width: 100%;
 }
 
 .clearfix:after
@@ -26,7 +28,7 @@ ul{
 #banner
 {
 	background: rgba(0,0,0,0.2);
-	height: 700px;
+	height: 600px;
 }
 
 nav ul
@@ -34,6 +36,7 @@ nav ul
 	list-style: none;
 	margin: 0;
 	float: right;
+	margin-left: 1420px;
 }
 
 nav ul li, nav .logo
@@ -65,13 +68,13 @@ nav ul li.logo
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top:160px;
+	top:60px;
 }
 
 
 #banner .side{
 	background:#00cbae;
-	position:absolute;
+	position:fixed;
 	left:1400px;
 	top:0px;
 	width:280px;
@@ -118,7 +121,8 @@ button
 #banner .inner .more
 {
 	font-size: 25px;
-	margin-top:200px;
+	margin-top:100px;
+	color:#FFF;
 }
 
 .sub-heading
@@ -315,8 +319,10 @@ ul.share-group{
 }
 
 .share-group li{
+	color:#06090a;
 	display: inline-block;
 	padding:10px;
+	width: 30px;
 }
 
 .copy{
@@ -331,7 +337,55 @@ ul.share-group{
 	background-position: center;
 }
 
+footer{
+	background: #444 url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .d{
 	color:#58bbb9;
 	margin-top: 10px;
+}
+
+footer .sub-heading{
+	color:#06090a;
+	font-size: 20px;
+}
+
+.contact-form{
+	background:#efe2e5;
+	position:fixed;
+	top:20%;
+	left:37%;
+	width:500px;
+	height:450px; 
+	display: none;
+}
+
+.contact-form h5{
+	font-size: 15px;
+	letter-spacing:1px;
+    line-height: 1.571428571428571em;
+	margin:0 0 18px;
+}
+
+.contact-forn .two_columns{
+	width: 100%;
+}
+
+.column1{
+	width:50%;
+	float: left;
+}
+
+.column2{
+	width:50%;
+	float: right;
+}
+
+.website_field_holder{
+	width: 100%;
 }
