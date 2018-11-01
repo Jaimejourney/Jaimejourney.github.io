@@ -16,7 +16,7 @@ nav
 }
 
 header{
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.4);
 }
 
 ul{
@@ -26,7 +26,7 @@ ul{
 #banner
 {
 	background: rgba(0,0,0,0.2);
-	height: 700px;
+	height: 960px;
 }
 
 nav ul
@@ -68,34 +68,6 @@ nav ul li.logo
 	top:160px;
 }
 
-
-#banner .side{
-	background:#00cbae;
-	position:absolute;
-	left:1400px;
-	top:0px;
-	width:280px;
-	height:660px; 
-	display: none;
-}
-
-#banner .side .x{
-	margin-top: 20px;
-	color:#FFF;
-	margin-left: 240px;
-}
-
-#banner .side .grade{
-	color:#FFF;
-	margin-top:20px;
-	margin-left:20px;
-	margin-right:20px;
-	font-size:15px;
-	right:20px;
-	padding-bottom: 10px;
-	border-bottom:1px solid #31b5a2;
-}
-
 #banner .inner h1
 {
 	margin: 0;
@@ -112,22 +84,18 @@ button
 #banner button{
 	padding:14px 60px;
 	background: #18a;
-	margin-top: 30px;
 }
 
 #banner .inner .more
 {
-	font-size: 25px;
-	margin-top:200px;
+	margin-top:280px;
 }
 
 .sub-heading
 {
-	color:#FFF;
-	letter-spacing:2px;
 	line-height: 20px;
 	margin: 30px 0;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .logo
@@ -136,8 +104,6 @@ button
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-
-
 
 h1{
 	padding:12px;
@@ -185,9 +151,9 @@ p{
 
 .green-section .icon-group .icon{
 	display: inline-block;
-	width: 50px;
-	height: 50px;
-	/*background: #0D6F7C;*/
+	width: 80px;
+	height: 80px;
+	background: #0D6F7C;
 	transform: rotate(40deg);
 	margin: 20px;
 }
@@ -329,9 +295,4 @@ ul.share-group{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-}
-
-.d{
-	color:#58bbb9;
-	margin-top: 10px;
 }
